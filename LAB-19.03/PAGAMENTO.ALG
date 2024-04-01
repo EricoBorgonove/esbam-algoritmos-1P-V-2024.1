@@ -13,9 +13,7 @@ Var
 // Seção de Declarações das variáveis 
          valorProduto, valorFinal : real
          formaPagamento, parcela: inteiro
-
 Inicio
-
       escreva ("Digite o valor do Produto R$")
       leia (valorProduto)
       escreval ("Escolha entre as formas de Pagamento.")
@@ -25,7 +23,6 @@ Inicio
       escreva ("---> ")
       leia (formaPagamento)
       limpatela()
-      
       escolha (formaPagamento)
            caso 1
                  valorFinal <- valorProduto - valorProduto*0.1
